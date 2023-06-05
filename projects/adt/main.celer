@@ -1,0 +1,33 @@
+_project:
+  authors: 
+    - AureusSR
+  description: ""
+  name: All Dog Treasures
+  url: ""
+  version: 1.0.0
+
+_config:
+  icons:
+    bombs: icons/bombs.png
+    magnesis: icons/magnesis.png
+    stasis: icons/stasis.png
+    cryonis: icons/cryonis.png
+    ist: icons/ist.png
+    chest_spec: icons/chest_spec.png
+    shrine_unlock: icons/shrine_unlock.png
+    town_rito: icons/town_rito.png
+    npc_spec: icons/npc_spec.png
+    npc_goron: icons/npc_goron.png
+    npc_gerudo: icons/npc_gerudo.png
+    npc_rito: icons/npc_rito.png
+
+_route:
+  - (==) This route is based off of the current All Dog Treasures World Record, which can be found .link([here]https://youtu.be/BLftk3pdW7w).
+  - Plateau:
+    - __use__ Plateau
+  - Faron & Hateno:
+    - __use__ Faron & Hateno
+  - Akkala & Gerudo:
+    - __use__ Akkala & Gerudo
+  - Hebra & Tarrey:
+    - __use__ Hebra & Tarrey

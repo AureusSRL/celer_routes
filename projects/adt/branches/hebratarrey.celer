@@ -1,0 +1,78 @@
+Hebra & Tarrey:
+- BLSS:
+    line-color: rgb(255,210,5)
+    coord: [-1423,1975.5]
+- _Shop<Buy Tunic & Trousers>:
+    icon: town_rito
+    comment: Sell all Wood
+    coord: [-3631.5,-1786.5]
+- _Npc::Rito<Fyson>:
+    icon: npc_rito
+    coord: [-3600.50, 287.60, -1814.47]
+- .dir(E>) + .dir(E) + BLSS:
+    notes: E> Super -> E Midair
+    movements:
+      - to: [-3597.5,-1822.25]
+      - to: [-3221,-1592]
+      - to: [-3069.5,-1517]
+- _Chest<Snowfield Stable Dogs>:
+    split-type: UserDefined
+    icon: chest_spec
+    comment: .v(Dog) Dogs
+    notes: Square WB NE to 2nd Dog
+    movements: 
+      - to: [-1645.14, 339.24, -2586.63] 
+      - to: [-1653.80, 343.59, -2625.11] 
+      - to: [-1656.12, 339.06, -2557.84] 
+      - to: [-1687.62, 338.40, -2539.70]
+    var-change:
+      Dog: 2
+- BLSS:
+    coord: [-1653.5,-2625]
+- _Chest<Serenne Stable Dog>:
+    split-type: UserDefined
+    icon: chest_spec
+    comment: .v(Dog) Dogs
+    movements: 
+      - to: [-1544.30, 212.22, -1793.92]
+      - to: [-1542.01, 212.00, -1761.31]
+    var-change:
+      Dog: 1
+- .dir(<N) + BLSS:
+    movements:
+      - to: [-1534,-1763.5]
+      - to: [-1559.5,-1799]
+- _Chest<Woodland Stable Dog>:
+    split-type: UserDefined
+    icon: chest_spec
+    comment: .v(Dog) Dogs
+    movements: 
+      - to: [1045.43, 127.57, -1148.37]
+      - to: [992.80, 125.70, -1132.40]
+    var-change:
+      Dog: 1
+- .dir(N>) + BLSS:
+    movements:
+      - to: [992.80, 125.70, -1132.40]
+      - to: [993.5,-1359.5]
+- _Chest<Wetland Stable Dog>:
+    split-type: UserDefined
+    icon: chest_spec
+    comment: .v(Dog) Dogs
+    movements: 
+      - to: [895.5,158.125]
+      - to: [924.94, 139.80, 274.55] 
+    var-change:
+      Dog: 1
+- _Warp::Shrine::DahHesho
+- .dir(N>)
+- _Chest<Tarrey Town Dog>:
+    split-type: UserDefined
+    icon: chest_spec
+    comment: .v(Dog) Dogs
+    notes: Shoot the brown dog
+    movements: 
+      - to: [3920.63, 236.98, -1628.46] 
+      - to: [3940.30, 232.60, -1649.20] 
+    var-change:
+      Dog: 1

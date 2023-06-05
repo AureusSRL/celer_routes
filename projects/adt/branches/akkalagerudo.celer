@@ -1,0 +1,97 @@
+Akkala & Gerudo:
+- .dir(E>) + .dir(<S) + BLSS:
+    line-color: rgb(255,160,5)
+    notes: <S Midair
+    movements:
+        - to: [3613.53,1956.71]
+        - to: [3765.5,2031.5]
+        - to: [3809,2119.5]
+        - to: [4332,1264]
+        - to: [4820,-1400]
+- _Chest<East Akkala Stable Dog>:
+    split-type: UserDefined
+    icon: chest_spec
+    comment: .v(Dog) Dogs
+    movements: 
+      - to: [4227.17, 231.44, -2733.19]
+      - to: [4199.77, 230.60, -2747.94]
+    var-change:
+      Dog: 1  
+- BLSS:
+    coord: [4199.77,-2747.94]
+- _Npc<Hudson>:
+    icon: npc_spec
+    coord: [3981.65, 233.41, -1599.11]
+- .dir(S) + .dir(S>):
+    notes: S> Midair
+    movements:
+        - to: [3991.75,-1606.5]
+        - to: [3988,-1454.5]
+- _Shrine::DahHesho:
+    icon: shrine_unlock
+    text: Activate Dah Hesho
+- BLSS
+- _Chest<South Akkala Stable Dog>:
+    split-type: UserDefined  
+    icon: chest_spec
+    comment: .v(Dog) Dogs
+    movements: 
+      - to: [3160.93, 306.78, -1716.53]
+      - to: [3202.18, 306.05, -1702.60] 
+    var-change:
+      Dog: 1
+- (?=) It is fairly common to get a panic blood moon around this part of the run. If one occurs, try feeding the Dog again after the Blood Moon.
+- .dir(<S) + .dir(N) + .dir(S) + .dir(N):
+    notes: S Midair
+    movements:
+        - to: [3202.18,-1702.60]
+        - to: [3229.5,-1598]
+        - to: [3240.5,-1650]
+        - to: [3244.5,-1549.5]
+- BLSS:
+    coord: [3279,-1571.5]
+- _Npc::Goron<Greyson>:
+    icon: npc_goron
+    coord: [1656.63, 430.15, -1968.53]
+- _Warp::Shrine::DahHesho
+- .dir(N> Tu. N)
+- _Npc<Hudson>:
+    icon: npc_spec
+    coord: [3981.65, 233.41, -1599.11]
+    hide-icon-on-map: true
+- _Warp::Shrine::KehNamut
+- BLSS:
+    coord: [-1423,1975.5]
+- _Chest<GC Stable Dog>:
+    split-type: UserDefined
+    icon: chest_spec
+    comment: .v(Dog) Dogs
+    movements: 
+      - to: [-2807.77, 134.87, 2239.03]
+      - to: [-2780.03, 134.33, 2235.16] 
+    var-change:
+      Dog: 1
+- .dir(<W) + .dir(SW):
+    notes: SW Midair
+    movements: 
+        - to: [-2775,2235.5]
+        - to: [-3038.5,2366]
+- _Chest<Kara Kara Bazaar Dog>:
+    split-type: UserDefined
+    icon: chest_spec
+    comment: .v(Dog) Dogs
+    movements: 
+      - to: [-3267.30, 128.83, 2562.79]
+      - to: [-3236.47, 128.14, 2596.45]
+    var-change:
+      Dog: 1
+- _Npc::Gerudo<Rhondson>:
+    icon: npc_gerudo
+    coord: [-3269.43, 129.00, 2585.22]
+- _Warp::Shrine::DahHesho
+- .dir(N> Tu. N)
+- _Npc<Hudson>:
+    icon: npc_spec
+    coord: [3981.65, 233.41, -1599.11]
+    hide-icon-on-map: true
+- _Warp::Shrine::KehNamut

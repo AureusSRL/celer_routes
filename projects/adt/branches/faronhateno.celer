@@ -1,0 +1,113 @@
+Faron & Hateno:
+- .dir(NW) + .!!(Get ToD) + .dir(NW):
+    notes: NW Midair -> NW Super
+    movements:
+      - to: [-828,1944]
+      - to: [-1032,1798]
+- .!!(IST):
+    icon: ist
+    notes: .link([IST Simulator Script]https://ist.itntpiston.app/?c=H4sIAAAAAAACA62PPU%2FDQAyG9%2FsVNzGXr5GBKKhiIuoVdUAMJjGKFSe%2BOlcq%2BPX4kgoFkJiY%2FPo5nR%2F7fqBEwPSB%2FtwHhoT%2ByodISulBX4ytmRpUt8ZkTSGdhIiglreidZurwhsy6ljI0dpKkv14YnrFm8vV6vkLTSMu8uz6vcIYUXOXoEdmCK2K9AY2cCxIm1IP%2FZio7gzdxshodSfSuPKsWqA%2Fh7m7%2FYHiye5psPPENnDB9nWFInT%2BemKj21FqPTD%2F1mc423LKK0zh5Mzxu9U9DrjQug2yQDM7fzyVKvGfpEvLnD8B83iqZNgBAAA%3D)
+    coord: [-1421.55,1280.33]
+    hide-icon-on-map: true
+- _Npc<Beedle>:
+    icon: npc_spec
+    comment: Sell ~375 Drumsticks
+    hide-icon-on-map: true
+- _Chest<Outskirt Stable Dog>:
+    split-type: UserDefined
+    icon: chest_spec
+    comment: .v(Dog) Dog
+    movements: 
+      - to: [-1431.00, 137.76, 1256.00]
+      - to: [-1414.48, 136.96, 1248.51] 
+    var-change:
+      Dog: 1
+- .dir(<W) + BLSS:
+    movements:
+      - to: [-1417.75,1247.125]
+      - to: [-1449.75,1269.25]
+      - to: [-1160,1162]
+      - to: [-492,1482]
+- _Chest<Highland Stable Dog>:
+    split-type: UserDefined
+    icon: chest_spec
+    comment: .v(Dog) Dogs
+    movements: 
+      - to: [529.89, 153.06, 3479.93]
+      - to: [536.47, 151.91, 3425.20] 
+    var-change:
+      Dog: 1
+- .dir(S) + BLSS:
+    movements:
+      - to: [536.47,3425.20]
+      - to: [546.27,3580.35]
+- _Chest<Lakeside Stable Dog>:
+    split-type: UserDefined
+    icon: chest_spec
+    comment: .v(Dog) Dogs
+    movements: 
+      - to: [1529.76, 166.19, 3530.13]
+      - to: [1528.13, 166.29, 3505.75] 
+    var-change:
+      Dog: 1
+- BLSS:
+    movements:
+      - to: [1550.5,3496]
+      - to: [2540,3276]
+- _Chest<Lurelin Village Dog>:
+    split-type: UserDefined
+    icon: chest_spec
+    comment: .v(Dog) Dogs
+    movements: 
+      - to: [2869.76, 106.45, 3433.88]
+      - to: [2857.95, 109.76, 3380.44] 
+    var-change:
+      Dog: 1
+- .dir(N) + .dir(<N) + .dir(E):
+    movements:
+      - to: [2857.95,3380.44]
+      - to: [2834,3311.5]
+      - to: [2822,3240.5]
+- BLSS:
+    movements:
+      - to: [2992,3209.75]
+      - to: [3062,2541]
+- _Chest<Dueling Peaks Stable Dog>:
+    split-type: UserDefined
+    icon: chest_spec
+    comment: .v(Dog) Dogs
+    movements: 
+      - to: [1767.00, 115.58, 1941.50]
+      - to: [1782.33, 116.20, 1910.04] 
+    var-change:
+      Dog: 1
+- .dir(W>) + .dir(S>) + BLSS:
+    movements:
+      - to: [1779,1907.5]
+      - to: [1641,1862.5]
+      - to: [1564.5,1966.5]
+- _Npc<Bolson>:
+    coord: [3316.60, 259.29, 2301.07]
+    hide-icon-on-map: true
+- _Npc<Bolson & Hudson>:
+    icon: npc_spec
+    coord: [3331.22, 235.28, 2284.61]
+- _Tod::Night:
+    text: .!!(Make Night)
+    hide-icon-on-map: true
+- .dir(NE) + .dir(<E):
+    notes: <E Midair
+    movements:
+      - to: [3335.5,2268.5]
+      - to: [3519,2073.5]
+- _Chest<Hateno Village Dog>:
+    split-type: UserDefined
+    icon: chest_spec
+    comment: .v(Dog) Dogs
+    notes: WB N to the Treasure
+    movements: 
+      - to: [3609.04, 282.81, 2044.48]
+      - to: [3630.5,2044.5]
+      - to: [3613.53, 285.24, 1956.71]
+    var-change:
+      Dog: 1

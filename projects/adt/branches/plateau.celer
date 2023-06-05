@@ -1,0 +1,60 @@
+Plateau:
+- .!!(SoR Clip):
+    icon: sor
+    line-color: rgb(255,30,5)
+- _Material<6 Spicy Peppers>:
+    coord: [-965.30, 238.52, 1956.67]
+    hide-icon-on-map: true
+-  _Equipment::Shield<Pot Lid>:
+    coord: [-952.34, 238.33, 1959.44]
+- _Equipment::Weapon<Boko Spear>:
+    hide-icon-on-map: true
+- _Chest<Traveler's Bow>:
+    coord: [-832.43, 222.00, 1963.11]
+    hide-icon-on-map: true
+- _Material<5 Arrows>:
+    hide-icon-on-map: true
+- BLSS to .loc(Bombs)
+- _Shrine::JaBaij:
+    icon: bombs
+    text: Bombs
+    split-type: UserDefined
+- BLSS to .loc(Great Plateau Tower)
+- _Tower::GreatPlateau:
+    split-type: None
+- WB to .loc(Magnesis)
+- _Shrine::OmanAu:
+    icon: magnesis
+    text: Magnesis
+    split-type: UserDefined
+- BLSS to .loc(Old Man's Hut)
+- _Material<2 Stamella Shrooms>:
+    coord: [-786.13, 193.19, 2266.93]
+    hide-icon-on-map: true
+- _Equipment::Weapon<Torch>:
+    coord: [-798.90, 193.32, 2262.30]
+- _Equipment::Shield<Pot Lid>:
+    hide-icon-on-map: true
+- _Material<2 Raw Bird Drumsticks>:
+    comment: Shoot Wood Pigeons
+    hide-icon-on-map: true
+- _Material<2 Wood>:
+    coord: [-856.45, 192.73, 2274.48]
+    hide-icon-on-map: true
+- _Material<2 Apples>:
+    hide-icon-on-map: true
+- WB to .loc(Stasis)
+- _Shrine::OwaDaim:
+    icon: stasis
+    text: Stasis
+    split-type: UserDefined
+- Boulder + BLSS to .loc(Cryo)
+- _Shrine::KehNamut:
+    icon: cryonis
+    text: Cryonis
+    split-type: UserDefined
+- BLSS to .loc(Temple of Time)
+- _Npc<Paraglider>:
+    split-type: UserDefined
+    icon: king
+    coord: [-809.33, 263.58, 1964.35]

@@ -1,0 +1,31 @@
+name: CI
+
+on:
+  push:
+    branches: [ "main" ]
+
+  workflow_dispatch:
+
+jobs:
+  publish:
+    name: Publish
+    strategy: 
+      matrix:
+        project:
+          - adt
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Get bundle.json
+        run: |
+          mkdir publish
+          cp projects/${{ matrix.project }}/bundle.json publish
+      - name: Publish to Branch
+        uses: JamesIves/github-pages-deploy-action@v4.2.5
+        with:
+          branch: "${{ matrix.project }}"
+          folder: publish
